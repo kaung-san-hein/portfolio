@@ -1,0 +1,30 @@
+.container {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313C4E;
+    padding: 1rem 3rem;
+}
+
+.textContainer {
+    flex: 1;
+}
+
+.textContainer h3, .textContainer p {
+    color: #fff;
+}
+
+.textContainer h5 {
+    color: #4C987E;
+}
+
+.imageContainer{
+    flex: 1;
+    text-align: right;
+}
+
+.imageContainer .image{
+    border-radius: 100%;
+    border: #4C987E 3px solid !important;
+}
