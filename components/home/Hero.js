@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h3>Kaung San Hein</h3>
+        <h3>Kaung San Hein (Freelancer)</h3>
         <h5>Web Developer | Web Design | Mobile Developer</h5>
         <p>
           I am a passionate web and mobile developer with more than one year of
