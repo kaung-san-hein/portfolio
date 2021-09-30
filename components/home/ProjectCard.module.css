@@ -22,3 +22,17 @@
 .link:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 600px) {
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .icon {
+        margin-right: 15px;
+    }
+}

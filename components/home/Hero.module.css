@@ -28,3 +28,37 @@
     border-radius: 100%;
     border: #4C987E 3px solid !important;
 }
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .imageContainer {
+        order: 1;
+    }
+
+    .textContainer {
+        order: 2;
+    }
+
+    .textContainer h3{
+        font-size: 18px;
+    } 
+    
+    .textContainer p {
+        font-size: 14px;
+    }
+}

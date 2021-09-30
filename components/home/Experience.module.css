@@ -21,4 +21,38 @@
 
 .skillContainer h1 {
     color: #4C987E;
+    margin-left: 0.5rem;
+}
+
+.skills{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .skillContainer h1 {
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .experienceContainer h1 {
+        font-size: 21px;
+    }
+
+    .skillContainer h1 {
+        font-size: 21px;
+    }
 }

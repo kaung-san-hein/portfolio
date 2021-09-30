@@ -14,24 +14,24 @@ function ProjectCard({ item }) {
     <div className={styles.card}>
       <h3>{item.title}</h3>
       <p>
-        <FontAwesomeIcon icon={faList} className={styles.icon} />{" "}
+        <FontAwesomeIcon icon={faList} className={styles.icon} />
         {item.category}
       </p>
       <p>
-        <FontAwesomeIcon icon={faClock} className={styles.icon} />{" "}
+        <FontAwesomeIcon icon={faClock} className={styles.icon} />
         {item.duration}
       </p>
       <p>
-        <FontAwesomeIcon icon={faUser} className={styles.icon} /> {item.develop}
+        <FontAwesomeIcon icon={faUser} className={styles.icon} />{item.develop}
       </p>
       <p>
-        <FontAwesomeIcon icon={faLink} className={styles.icon} />{" "}
+        <FontAwesomeIcon icon={faLink} className={styles.icon} />
         <Link href={item.url}>
           <a className={styles.link}>{item.link}</a>
         </Link>
       </p>
       <p>
-        <FontAwesomeIcon icon={faCode} className={styles.icon} /> {item.code}
+        <FontAwesomeIcon icon={faCode} className={styles.icon} />{item.code}
       </p>
     </div>
   );

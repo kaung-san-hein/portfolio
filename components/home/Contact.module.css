@@ -7,3 +7,29 @@
     color: #fff;
     padding: 0.3rem 3rem;
 }
+
+.container p {
+    margin-right: 18px;
+}
+
+.container p:last-child{
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        font-size: 14px;
+    }
+}
