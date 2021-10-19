@@ -12,10 +12,18 @@ function Footer() {
         <FontAwesomeIcon icon={faSmile} />
       </h3>
       <div className={styles.linkContainer}>
-        <a href="https://www.youtube.com/channel/UCOFTCb6iJgqffcU1_9xgqpA">
+        <a
+          href="https://www.youtube.com/channel/UCOFTCb6iJgqffcU1_9xgqpA"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faYoutube} />
         </a>{" "}
-        <a href="https://github.com/kaung-san-hein">
+        <a
+          href="https://github.com/kaung-san-hein"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </div>

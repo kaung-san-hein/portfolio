@@ -26,7 +26,12 @@ function ProjectCard({ item }) {
       </p>
       <p>
         <FontAwesomeIcon icon={faLink} className={styles.icon} />
-        <a href={item.url} className={styles.link} target="_blank">
+        <a
+          href={item.url}
+          className={styles.link}
+          target="_blank"
+          rel="noreferrer"
+        >
           {item.link}
         </a>
       </p>
