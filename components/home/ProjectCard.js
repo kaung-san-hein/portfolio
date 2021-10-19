@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styles from "./ProjectCard.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -22,16 +21,18 @@ function ProjectCard({ item }) {
         {item.duration}
       </p>
       <p>
-        <FontAwesomeIcon icon={faUser} className={styles.icon} />{item.develop}
+        <FontAwesomeIcon icon={faUser} className={styles.icon} />
+        {item.develop}
       </p>
       <p>
         <FontAwesomeIcon icon={faLink} className={styles.icon} />
-        <Link href={item.url}>
-          <a className={styles.link}>{item.link}</a>
-        </Link>
+        <a href={item.url} className={styles.link} target="_blank">
+          {item.link}
+        </a>
       </p>
       <p>
-        <FontAwesomeIcon icon={faCode} className={styles.icon} />{item.code}
+        <FontAwesomeIcon icon={faCode} className={styles.icon} />
+        {item.code}
       </p>
     </div>
   );

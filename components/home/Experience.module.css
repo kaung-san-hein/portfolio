@@ -1,58 +1,79 @@
-.container{
-    width: 1200px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    background-color: #FFFFFF;
-    padding: 0.3rem 3rem;
+.container {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #ffffff;
+  padding: 0.3rem 3rem;
 }
 
-.experienceContainer{
-    flex: 1;
+.experienceContainer {
+  flex: 1;
 }
 
 .experienceContainer h1 {
-    color: #4C987E;
+  color: #4c987e;
 }
 
-.skillContainer{
-    flex: 1;
+.experienceContainer select {
+  padding: 0.3rem;
+  border: 2px solid #4c987e;
+  background-color: #e5eaee;
+  border-radius: 5px;
+  font-weight: 550;
+}
+
+.experienceContainer select:focus {
+  outline: 0 !important;
+}
+
+.icon {
+  margin-right: 18px;
+  color: #4c987e;
+}
+
+.skillContainer {
+  flex: 1;
 }
 
 .skillContainer h1 {
-    color: #4C987E;
-    margin-left: 0.5rem;
+  color: #4c987e;
+  margin-left: 0.5rem;
 }
 
-.skills{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
+.skills {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1200px) {
-    .container {
-        width: 100%;
-    }
+  .container {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
+  .container {
+    flex-direction: column;
+  }
 
-    .skillContainer h1 {
-        margin-left: 0rem;
-    }
+  .skillContainer h1 {
+    margin-left: 0rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .experienceContainer h1 {
-        font-size: 21px;
-    }
+  .experienceContainer h1 {
+    font-size: 21px;
+  }
 
-    .skillContainer h1 {
-        font-size: 21px;
-    }
+  .skillContainer h1 {
+    font-size: 21px;
+  }
+
+  .icon {
+    margin-right: 15px;
+  }
 }
