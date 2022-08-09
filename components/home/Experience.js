@@ -1,17 +1,17 @@
-import { useState } from "react";
-import styles from "./Experience.module.css";
-import ProjectCard from "./ProjectCard";
-import SkillBtn from "./SkillBtn";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilter } from "@fortawesome/free-solid-svg-icons";
+import { useState } from 'react'
+import styles from './Experience.module.css'
+import ProjectCard from './ProjectCard'
+import SkillBtn from './SkillBtn'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFilter } from '@fortawesome/free-solid-svg-icons'
 
 function Experience({ categories, projects, skills }) {
-  const [category, setCategory] = useState("All");
+  const [category, setCategory] = useState('All')
 
   const filteredProjects =
-    category === "All"
+    category === 'All'
       ? projects
-      : projects.filter((project) => project.category === category);
+      : projects.filter((project) => project.category === category)
 
   return (
     <div className={styles.container}>
@@ -36,6 +36,10 @@ function Experience({ categories, projects, skills }) {
         ))}
       </div>
       <div className={styles.skillContainer}>
+        <h1>Certificates</h1>
+        <a href="/images/CS50x.png" target="_blank" className={styles.link} rel="noreferrer">
+          CS50&apos;s Introduction to Computer Science
+        </a>
         <h1>Skills</h1>
         <div className={styles.skills}>
           {skills.map((skill, index) => (
@@ -44,7 +48,7 @@ function Experience({ categories, projects, skills }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Experience;
+export default Experience

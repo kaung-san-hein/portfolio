@@ -41,6 +41,14 @@
   margin-left: 0.5rem;
 }
 
+.link {
+  margin: 0.5rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
 .skills {
   display: flex;
   justify-content: flex-start;
@@ -60,6 +68,10 @@
   }
 
   .skillContainer h1 {
+    margin-left: 0rem;
+  }
+
+  .link {
     margin-left: 0rem;
   }
 }

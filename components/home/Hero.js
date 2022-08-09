@@ -1,16 +1,16 @@
-import styles from "./Hero.module.css";
-import Image from "next/image";
+import styles from './Hero.module.css'
+import Image from 'next/image'
 
 function Hero() {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h3>Kaung San Hein (Freelancer)</h3>
-        <h5>Web Developer | Web Design | Mobile Developer</h5>
+        <h3>Kaung San Hein - B.Sc(Computer Science)</h3>
+        <h5>Web Developer | Mobile Developer</h5>
         <p>
-          I am a passionate web and mobile developer with more than one year of
+          I am a passionate web and mobile developer with more than two years of
           experience. A quick learner by nature. I love challenges and solving
-          problems. Currently, I am working at Real Code Solutions as a web and
+          problems. Currently, I am working at an organization as a web and
           mobile developer.
         </p>
       </div>
@@ -24,7 +24,7 @@ function Hero() {
         />
       </div>
     </div>
-  );
+  )
 }
 
-export default Hero;
+export default Hero
