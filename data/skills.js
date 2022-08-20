@@ -16,4 +16,5 @@ export const skills = [
   'Figma',
   'CPanel',
   'VPS',
+  'Docker',
 ]
