@@ -36,8 +36,30 @@ function Experience({ categories, projects, skills }) {
         ))}
       </div>
       <div className={styles.skillContainer}>
+        <h1>CV & Resume</h1>
+        <a
+          href="/pdf/CV.docx.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          CV
+        </a>
+        <a
+          href="/pdf/Resume.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          Resume
+        </a>
         <h1>Certificates</h1>
-        <a href="/images/CS50x.png" target="_blank" className={styles.link} rel="noreferrer">
+        <a
+          href="/images/CS50x.png"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
           CS50&apos;s Introduction to Computer Science
         </a>
         <h1>Skills</h1>

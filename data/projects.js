@@ -69,4 +69,15 @@ export const projects = [
     url: 'https://play.google.com/store/apps/details?id=com.rcsmm.optimize',
     code: 'Laravel, Flutter',
   },
+  {
+    id: 8,
+    title: 'Heaven Praise',
+    category: 'ios app',
+    duration: '5 months',
+    develop: 'developed with my senior',
+    link: 'to download Heaven Praise app',
+    url:
+      'https://apps.apple.com/us/app/heaven-praise/id1641637196?platform=iphone',
+    code: 'Laravel(API), Reactjs, Flutter',
+  },
 ]
