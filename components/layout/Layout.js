@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Footer from "./Footer";
 import styles from "./Layout.module.css";
 
 function Layout(props) {
@@ -14,7 +13,6 @@ function Layout(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {props.children}
-      <Footer />
     </div>
   );
 }

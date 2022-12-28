@@ -1,7 +1,11 @@
-import styles from "./Footer.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSmile } from "@fortawesome/free-solid-svg-icons";
-import { faYoutube, faGithub } from "@fortawesome/free-brands-svg-icons";
+import styles from './Footer.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSmile } from '@fortawesome/free-solid-svg-icons'
+import {
+  faYoutube,
+  faGithub,
+  faStackOverflow,
+} from '@fortawesome/free-brands-svg-icons'
 
 function Footer() {
   return (
@@ -18,17 +22,24 @@ function Footer() {
           rel="noreferrer"
         >
           <FontAwesomeIcon icon={faYoutube} />
-        </a>{" "}
+        </a>{' '}
         <a
           href="https://github.com/kaung-san-hein"
           target="_blank"
           rel="noreferrer"
         >
           <FontAwesomeIcon icon={faGithub} />
+        </a>{' '}
+        <a
+          href="https://stackoverflow.com/users/13863327/kaung-san-hein"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faStackOverflow} />
         </a>
       </div>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

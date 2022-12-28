@@ -1,6 +1,16 @@
 export const projects = [
   {
     id: 1,
+    title: 'TB Patient DOT Management System(included video call)',
+    category: 'favourite',
+    duration: '7 months',
+    develop: 'developed by me',
+    link: 'to view detail',
+    url: '/favourite',
+    code: 'Laravel(API), Reactjs, Flutter, Docker, Digital Ocean, AWS, Agora',
+  },
+  {
+    id: 2,
     title: 'Admin Panel of Phone Book App',
     category: 'web app',
     duration: '4 months',
@@ -10,7 +20,7 @@ export const projects = [
     code: 'Reactjs, Laravel(API), Postgresql, AWS',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Kakehashi Japanese Language Center Official Website',
     category: 'website',
     duration: '1.5 months',
@@ -20,7 +30,7 @@ export const projects = [
     code: 'HTML, CSS, Nextjs',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Point of Sale(POS)',
     category: 'android app',
     duration: '4 months',
@@ -30,7 +40,7 @@ export const projects = [
     code: 'Flutter, Sqlite',
   },
   {
-    id: 4,
+    id: 5,
     title: 'RCS Official Website',
     category: 'website',
     duration: '3 months',
@@ -40,7 +50,7 @@ export const projects = [
     code: 'HTML, CSS, Nextjs, MongoDB',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Web-Based Point of Sale(EPOS)',
     category: 'android app',
     duration: '5 months',
@@ -50,7 +60,7 @@ export const projects = [
     code: 'Laravel(API), Reactjs, Flutter',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Top Power Group',
     category: 'android app',
     duration: '3 months',
@@ -60,7 +70,7 @@ export const projects = [
     code: 'Laravel, Flutter',
   },
   {
-    id: 7,
+    id: 8,
     title: 'မာသင်',
     category: 'android app',
     duration: '3 months',
@@ -70,7 +80,7 @@ export const projects = [
     code: 'Laravel, Flutter',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Heaven Praise',
     category: 'ios app',
     duration: '5 months',

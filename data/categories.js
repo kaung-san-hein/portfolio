@@ -1,1 +1,7 @@
-export const categories = ['web app', 'website', 'android app', 'ios app']
+export const categories = [
+  'favourite',
+  'web app',
+  'website',
+  'android app',
+  'ios app',
+]

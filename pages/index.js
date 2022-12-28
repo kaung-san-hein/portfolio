@@ -1,10 +1,11 @@
-import { Fragment } from "react";
-import Contact from "../components/home/Contact";
-import Experience from "../components/home/Experience";
-import Hero from "../components/home/Hero";
-import { projects } from "../data/projects";
-import { skills } from "../data/skills";
-import { categories } from "../data/categories";
+import { Fragment } from 'react'
+import Contact from '../components/home/Contact'
+import Experience from '../components/home/Experience'
+import Hero from '../components/home/Hero'
+import { projects } from '../data/projects'
+import { skills } from '../data/skills'
+import { categories } from '../data/categories'
+import Footer from '../components/layout/Footer'
 
 export async function getStaticProps() {
   return {
@@ -13,7 +14,7 @@ export async function getStaticProps() {
       projects,
       skills,
     },
-  };
+  }
 }
 
 export default function Home({ categories, projects, skills }) {
@@ -22,6 +23,7 @@ export default function Home({ categories, projects, skills }) {
       <Hero />
       <Contact />
       <Experience categories={categories} projects={projects} skills={skills} />
+      <Footer />
     </Fragment>
-  );
+  )
 }
