@@ -1,0 +1,8 @@
+.otherProject {
+    color: #4c987e;
+    margin-right: 10px;
+}
+
+.otherProject:hover {
+    text-decoration: underline;
+}

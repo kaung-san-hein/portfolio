@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import styles from './Experience.module.css'
 import ProjectCard from './ProjectCard'
 import SkillBtn from './SkillBtn'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilter } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
+import OtherProjectBtn from './OtherProjectBtn'
 
 function Experience({ categories, projects, skills }) {
   const [category, setCategory] = useState('All')
@@ -32,14 +34,12 @@ function Experience({ categories, projects, skills }) {
               ))}
             </select>
           </div>
-          <a
+          <Link
             href="/other"
-            className={styles.otherProject}
-            target="_blank"
-            rel="noreferrer"
+            passHref legacyBehavior
           >
-            Other Projects
-          </a>
+            <OtherProjectBtn />
+          </Link>
         </div>
         {filteredProjects.map((item) => (
           <ProjectCard key={item.id} item={item} />
