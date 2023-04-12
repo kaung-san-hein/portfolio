@@ -17,19 +17,29 @@ function Experience({ categories, projects, skills }) {
     <div className={styles.container}>
       <div className={styles.experienceContainer}>
         <h1>Work Experiences</h1>
-        <div>
-          <FontAwesomeIcon icon={faFilter} className={styles.icon} />
-          <select
-            value={category}
-            onChange={(event) => setCategory(event.target.value)}
+        <div className={styles.experienceTitleContainer}>
+          <div>
+            <FontAwesomeIcon icon={faFilter} className={styles.icon} />
+            <select
+              value={category}
+              onChange={(event) => setCategory(event.target.value)}
+            >
+              <option value="All">All</option>
+              {categories.map((category, index) => (
+                <option key={index} value={category}>
+                  {category}
+                </option>
+              ))}
+            </select>
+          </div>
+          <a
+            href="/other"
+            className={styles.otherProject}
+            target="_blank"
+            rel="noreferrer"
           >
-            <option value="All">All</option>
-            {categories.map((category, index) => (
-              <option key={index} value={category}>
-                {category}
-              </option>
-            ))}
-          </select>
+            Other Projects
+          </a>
         </div>
         {filteredProjects.map((item) => (
           <ProjectCard key={item.id} item={item} />
