@@ -72,6 +72,15 @@ function Experience({ categories, projects, skills }) {
         >
           CS50&apos;s Introduction to Computer Science
         </a>
+        <h1>NPM Packages</h1>
+        <a
+          href="https://www.npmjs.com/package/convert-mm"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          convert-mm
+        </a>
         <h1>Skills</h1>
         <div className={styles.skills}>
           {skills.map((skill, index) => (

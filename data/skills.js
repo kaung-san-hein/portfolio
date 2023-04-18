@@ -17,4 +17,5 @@ export const skills = [
   'CPanel',
   'VPS',
   'Docker',
+  'React Testing',
 ]
