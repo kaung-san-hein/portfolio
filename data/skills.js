@@ -18,4 +18,6 @@ export const skills = [
   'VPS',
   'Docker',
   'React Testing',
+  'RxJS',
+  'FP Concept',
 ]
