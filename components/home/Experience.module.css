@@ -49,6 +49,7 @@
 
 .link {
   margin: 0.5rem;
+  display: block;
 }
 
 .link:hover {

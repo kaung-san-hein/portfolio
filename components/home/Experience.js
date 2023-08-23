@@ -1,19 +1,19 @@
-import React, { useState } from 'react'
-import styles from './Experience.module.css'
-import ProjectCard from './ProjectCard'
-import SkillBtn from './SkillBtn'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFilter } from '@fortawesome/free-solid-svg-icons'
-import Link from 'next/link'
-import OtherProjectBtn from './OtherProjectBtn'
+import React, { useState } from "react";
+import styles from "./Experience.module.css";
+import ProjectCard from "./ProjectCard";
+import SkillBtn from "./SkillBtn";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilter } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
+import OtherProjectBtn from "./OtherProjectBtn";
 
 function Experience({ categories, projects, skills }) {
-  const [category, setCategory] = useState('All')
+  const [category, setCategory] = useState("All");
 
   const filteredProjects =
-    category === 'All'
+    category === "All"
       ? projects
-      : projects.filter((project) => project.category === category)
+      : projects.filter((project) => project.category === category);
 
   return (
     <div className={styles.container}>
@@ -34,10 +34,7 @@ function Experience({ categories, projects, skills }) {
               ))}
             </select>
           </div>
-          <Link
-            href="/other"
-            passHref legacyBehavior
-          >
+          <Link href="/other" passHref legacyBehavior>
             <OtherProjectBtn />
           </Link>
         </div>
@@ -72,6 +69,22 @@ function Experience({ categories, projects, skills }) {
         >
           CS50&apos;s Introduction to Computer Science
         </a>
+        <a
+          href="/images/MicroservicesWithNodejsAndReact.jpg"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          Microservices With Nodejs And React
+        </a>
+        <a
+          href="/images/NodeJSAdvancedConcepts.jpg"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          NodeJS Advanced Concepts
+        </a>
         <h1>NPM Packages</h1>
         <a
           href="https://www.npmjs.com/package/convert-mm"
@@ -89,7 +102,7 @@ function Experience({ categories, projects, skills }) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Experience
+export default Experience;
