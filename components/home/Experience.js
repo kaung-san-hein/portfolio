@@ -85,6 +85,14 @@ function Experience({ categories, projects, skills }) {
         >
           NodeJS Advanced Concepts
         </a>
+        <a
+          href="/images/TheCompleteGoDeveloperGuide.jpeg"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          The Complete Go Developer
+        </a>
         <h1>NPM Packages</h1>
         <a
           href="https://www.npmjs.com/package/convert-mm"
