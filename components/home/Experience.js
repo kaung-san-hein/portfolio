@@ -93,6 +93,14 @@ function Experience({ categories, projects, skills }) {
         >
           The Complete Go Developer
         </a>
+        <a
+          href="/images/NestJSTheCompleteDeveloperGuide.jpeg"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          NestJS The Complete Developer Guide
+        </a>
         <h1>NPM Packages</h1>
         <a
           href="https://www.npmjs.com/package/convert-mm"
