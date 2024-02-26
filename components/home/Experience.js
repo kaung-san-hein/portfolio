@@ -101,6 +101,30 @@ function Experience({ categories, projects, skills }) {
         >
           NestJS The Complete Developer Guide
         </a>
+        <a
+          href="/images/TheCompleteTypescriptDeveloperGuide.jpeg"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          The Complete Typescript Developer Guide
+        </a>
+        <a
+          href="/images/DockerAndKubernetesTheCompleteGuide.jpg"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          Docker And Kubernetes The Complete Guide
+        </a>
+        <a
+          href="/images/AWSCertifiedDeveloper.jpeg"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          AWS Certified Developer
+        </a>
         <h1>NPM Packages</h1>
         <a
           href="https://www.npmjs.com/package/convert-mm"
