@@ -60,6 +60,14 @@ function Experience({ categories, projects, skills }) {
         >
           Resume
         </a> */}
+        {/* <a
+          href="/pdf/06b3f1a8-2d0a-46df-a5d7-b5d7c813b619.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          Degree
+        </a> */}
         <h1>Certificates</h1>
         <a
           href="/images/CS50x.png"

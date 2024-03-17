@@ -8,7 +8,7 @@ function Hero() {
         <h3>Kaung San Hein - B.Sc(Computer Science)</h3>
         <h5>Web Developer | Mobile Developer</h5>
         <p>
-          I am a passionate web and mobile developer with more than two years of
+          I am a passionate web and mobile developer with more than 3 years of
           experience. A quick learner by nature. I love challenges and solving
           problems. Currently, I am working at an organization as a web and
           mobile developer.
