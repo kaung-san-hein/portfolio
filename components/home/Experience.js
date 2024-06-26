@@ -133,6 +133,168 @@ function Experience({ categories, projects, skills }) {
         >
           AWS Certified Developer
         </a>
+        <a
+          href="/mongodb/01-Introduction-to-MongoDB.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          Introduction to MongoDB
+        </a>
+        <a
+          href="/mongodb/02-Schema-Design-Anti-Patterns.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          Schema Design Anti Patterns
+        </a>
+        <a
+          href="/mongodb/03-MongoDB-Logging-Basics.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          MongoDB Logging Basics
+        </a>
+        <a
+          href="/mongodb/04-Getting-Started-with-MongoDB-Atlas.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          Getting Started with MongoDB Atlas
+        </a>
+        <a
+          href="/mongodb/05-Replication-in-MongoDB.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          Replication in MongoDB
+        </a>
+        <a
+          href="/mongodb/06-MongoDB-for-SQL-Experts.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          MongoDB for SQL Experts
+        </a>
+        <a
+          href="/mongodb/07-MongoDB-and-the-Document-Model.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          MongoDB and the Document Model
+        </a>
+        <a
+          href="/mongodb/08-Connecting-to-a-MongoDB-Database.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          Connecting to a MongoDB Database
+        </a>
+        <a
+          href="/mongodb/09-MongoDB-CRUD-Operations-Insert-and-Find-Documents.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          MongoDB CRUD Operations Insert and Find Documents
+        </a>
+        <a
+          href="/mongodb/10-MongoDB-CRUD-Operations-Replace-and-Delete-Documents.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          MongoDB CRUD Operations Replace and Delete Documents
+        </a>
+        <a
+          href="/mongodb/11-MongoDB-CRUD-Operations-Modifying-Query-Results.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          MongoDB CRUD Operations Modifying Query Results
+        </a>
+        <a
+          href="/mongodb/12-MongoDB-Aggregation.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          MongoDB Aggregation
+        </a>
+        <a
+          href="/mongodb/13-MongoDB-Indexes.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          MongoDB Indexes
+        </a>
+        <a
+          href="/mongodb/14-MongoDB-Atlas-Search.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          MongoDB Atlas Search
+        </a>
+        <a
+          href="/mongodb/15-MongoDB-Data-Modeling-Intro.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          MongoDB Data Modeling Intro
+        </a>
+        <a
+          href="/mongodb/16-MongoDB-Transactions.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          MongoDB Transactions
+        </a>
+        <a
+          href="/mongodb/17-Schema-Design-Patterns.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          Schema Design Patterns
+        </a>
+        <a
+          href="/mongodb/18-Advanced-Schema-Design-Patterns.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          Advanced Schema Design Patterns
+        </a>
         <h1>NPM Packages</h1>
         <a
           href="https://www.npmjs.com/package/convert-mm"
