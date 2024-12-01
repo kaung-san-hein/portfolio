@@ -134,6 +134,38 @@ function Experience({ categories, projects, skills }) {
           AWS Certified Developer
         </a>
         <a
+          href="/images/ModernReactWithRedux.jpg"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          Modern React with Redux
+        </a>
+        <a
+          href="/images/SQLAndPostgreSQLTheCompleteDeveloperGuide.jpg"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          SQL and PostgreSQL: The Complete Developer Guide
+        </a>
+        <a
+          href="/images/RedisTheCompleteDeveloperGuide.jpg"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          Redis: The Complete Developer Guide
+        </a>
+        <a
+          href="/images/TheCompleteDeveloperGuideMongoDB.jpg"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          The Complete Developers Guide to MongoDB
+        </a>
+        <a
           href="/mongodb/01-Introduction-to-MongoDB.pdf"
           target="_blank"
           className={styles.link}
@@ -294,6 +326,33 @@ function Experience({ categories, projects, skills }) {
           style={{ display: "none" }}
         >
           Advanced Schema Design Patterns
+        </a>
+        <a
+          href="/pdf/Introduction-to-Cloud-Infrastructure-Technologies.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          Introduction to Cloud Infrastructure Technologies
+        </a>
+        <a
+          href="/pdf/Introduction-to-Jenkins.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          Introduction to Jenkins
+        </a>
+        <a
+          href="/pdf/Introduction-to-Kubernetes.pdf"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+          style={{ display: "none" }}
+        >
+          Introduction to Kubernetes
         </a>
         <h1>NPM Packages</h1>
         <a
