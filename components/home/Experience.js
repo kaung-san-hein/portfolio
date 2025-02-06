@@ -166,6 +166,14 @@ function Experience({ categories, projects, skills }) {
           The Complete Developers Guide to MongoDB
         </a>
         <a
+          href="/images/DevOpsProjectsAndGitOpsProjects.jpeg"
+          target="_blank"
+          className={styles.link}
+          rel="noreferrer"
+        >
+          DevOps Projects And GitOps Projects
+        </a>
+        <a
           href="/mongodb/01-Introduction-to-MongoDB.pdf"
           target="_blank"
           className={styles.link}
